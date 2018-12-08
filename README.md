@@ -21,6 +21,44 @@ Match 33: crandall1, c43896cb63f63f8f2124bad68ea965a5
 ...
 Passwords cracked: 100
 ```
+## Preprocessor
+Please note this is not a complete preprocessor. However it functions similary to one. This program will include any includes in a file so long as it can find it. If it can't be found or the include doesn't follow the required format the line will be left alone.
+
+It can handle includes within includes, for a simple version use prep.c, for a more advanced version use mpp2.c.
+
+Sample input:
+```
+#include header.txt
+Greetings, Earthlings!  // Note: change greeting for another planet
+We have come to this planet to learn about your food. Please
+send 1.2 million pounds of pizza, Frappuccinos, and chocolate
+doughnuts with those adorable sprinkles on top
+to our interplanetary address.
+// Only 7.4 light years away
+#include address.txt
+
+Sincerely,
+The Aliens
+```
+
+Output:
+```
+To: Inhabitants of Earth
+From: Vogon Armada, Orion Division
+Greetings, Earthlings! 
+We have come to this planet to learn about your food. Please
+send 1.2 million pounds of pizza, Frappuccinos, and chocolate
+doughnuts with those adorable sprinkles on top
+to our interplanetary address.
+
+Digestable Comestible Investigations
+Vogon Science and Research
+Mailstop M42
+Orion Cluster
+
+Sincerely,
+The Aliens
+```
 
 ## Weather app
 This project uses Wunderground, with the recent removal of free API keys I am unsure of when my program will stop working. Until my key is revoked the project should work fine so long as you use libsocket.
