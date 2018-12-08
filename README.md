@@ -26,7 +26,8 @@ Please note this is not a complete preprocessor. However it functions similary t
 
 It can handle includes within includes, for a simple version use prep.c, for a more advanced version use mpp2.c.
 
-Sample input:
+prep.c
+Input:
 ```
 #include header.txt
 Greetings, Earthlings!  // Note: change greeting for another planet
@@ -58,6 +59,64 @@ Orion Cluster
 
 Sincerely,
 The Aliens
+```
+
+mpp2.c
+Input:
+```
+#include header.txt
+Greetings, Earthlings!  // Note: change greeting for another planet
+We have come to this planet to learn about your food. Please
+send 1.2 million pounds of pizza, Frappuccinos, and chocolate
+doughnuts with those adorable sprinkles on top
+to our interplanetary address.
+// Only 7.4 light years away
+#include address.txt
+
+ #include header.txt
+#include her.txt
+#include 
+"//Comment in quotes"
+
+"This is a /* test */"
+
+/* this is a small test */
+/*
+this is a
+
+big
+
+test */
+
+Sincerely,
+The Aliens
+```
+
+Output:
+```
+To: Inhabitants of Earth
+From: Vogon Armada, Orion Division
+Greetings, Earthlings! 
+We have come to this planet to learn about your food. Please
+send 1.2 million pounds of pizza, Frappuccinos, and chocolate
+doughnuts with those adorable sprinkles on top
+to our interplanetary address.
+
+Digestable Comestible Investigations
+Vogon Science and Research
+Mailstop M42
+Orion Cluster
+
+Hello World
+
+The above phrase should say "Hello World"
+
+ #include header.txt
+#include her.txt
+#include 
+"//Comment in quotes"
+
+"This is a /* test */"
 ```
 
 ## Weather app
