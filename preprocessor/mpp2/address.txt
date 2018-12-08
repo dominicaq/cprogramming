@@ -1,0 +1,10 @@
+
+Digestable Comestible Investigations
+Vogon Science and Research
+Mailstop M42
+Orion Cluster
+
+#include helloworld.txt
+
+The above phrase should say "Hello World"
+// This comment shouldn't be seen

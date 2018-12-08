@@ -1,0 +1,11 @@
+#include header.txt
+Greetings, Earthlings!  // Note: change greeting for another planet
+We have come to this planet to learn about your food. Please
+send 1.2 million pounds of pizza, Frappuccinos, and chocolate
+doughnuts with those adorable sprinkles on top
+to our interplanetary address.
+// Only 7.4 light years away
+#include address.txt
+
+Sincerely,
+The Aliens
