@@ -119,6 +119,9 @@ The above phrase should say "Hello World"
 "//Comment in quotes"
 
 "This is a /* test */"
+
+Sincerely,
+The Aliens
 ```
 
 ## Weather app
