@@ -1,6 +1,6 @@
 # -*- indent-tabs-mode:t; -*-
 
-NUM_HASHES=1000
+NUM_HASHES=100
 ROCKYOU=rockyou3m.txt
 #ROCKYOU=rockyou100.txt
 #ROCKYOU=rockyou1000.txt
