@@ -21,8 +21,8 @@ Match 33: crandall1, c43896cb63f63f8f2124bad68ea965a5
 ...
 Passwords cracked: 100
 ```
-## Preprocessor
-Please note this is not a complete preprocessor. However it functions similary to one. This program will include any includes in a file so long as it can find it. If it can't be found or the include doesn't follow the required format the line will be left alone.
+## Mini Preprocessor
+Please note this is *not* a complete preprocessor. However it functions similary to one. This program will include any includes in a file so long as it can find it. If it can't be found or the include doesn't follow the required format the line will be left alone.
 
 It can handle includes within includes, for a simple version use prep.c, for a more advanced version use mpp2.c.
 
