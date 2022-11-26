@@ -1,7 +1,7 @@
 # C Programming Fall 2018
 
 ## Crack 2 & 3
-These projects perform the same function but are different in efficentcy, the main goal is to find the non hashed version of a password in the hash file using a large dictionary of words and hashing them to find matches. (Hashes are MD5)
+These projects perform the same function but are different in efficentcy, the main goal is to find the non hashed version of a password in the hash file using a large dictionary of words and hashing them to find matches. (Hashes are in MD5)
 
 Crack3 uses structs, qsort, and bsearch O(logn)
 
@@ -17,9 +17,7 @@ Match 33: crandall1, c43896cb63f63f8f2124bad68ea965a5
 Passwords cracked: 100
 ```
 ## Mini Preprocessor
-Please note this is *not* a complete preprocessor. However it functions similary to one. This program will include any includes in a file so long as it can find it. If it can't be found or the include doesn't follow the required format the line will be left alone.
-
-It can handle includes within includes, for a simple version use prep.c, for a more advanced version use mpp2.c.
+This is not a complete preprocessor. This program will include any valid include paths given to it. If it can't be found or the include doesn't follow the required format the include line will be left alone.
 
 prep.c
 
@@ -119,26 +117,8 @@ Sincerely,
 The Aliens
 ```
 
-## Weather app
-This project uses Wunderground, with the recent removal of free API keys I am unsure of when my program will stop working. Until my key is revoked the project should work fine so long as you use libsocket.
-
-Sample Output:
-```
-Observation Time: Last Updated on December 4, 10:02 AM PST
-Location: Lincoln, CA
-Temperature: 46.6 F
-Humidity: 81%
-Wind: ENE 3 mph
-
-Forecast
-Tuesday: 57 43
-Wednesday: 53 39
-Thursday: 57 35
-Friday: 56 40
-```
-
 ## Knight
-A personal favorite, however most of the code is teacher code. The function I was required to create was int move_knight(). The goal was to teach us pointers.
+Uses pointers to update a text based chess board, simulates the moves a knight can make.
 
 Controls:
 ```
