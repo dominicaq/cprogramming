@@ -1,9 +1,4 @@
 # C Programming Fall 2018
-In fall 2018 I took a C course, while I believe I didn't create anything to write home about it is still my work regardless. Best to have it stored rather than having nothing at all.
-
-This repo holds multiple C projects, specifically the ones I believe are worth mentioning.
-
-### The projects in this repo were all developed on cloud9 AWS
 
 ## Crack 2 & 3
 These projects perform the same function but are different in efficentcy, the main goal is to find the non hashed version of a password in the hash file using a large dictionary of words and hashing them to find matches. (Hashes are MD5)
