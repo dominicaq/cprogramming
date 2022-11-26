@@ -8,9 +8,9 @@ This repo holds multiple C projects, specifically the ones I believe are worth m
 ## Crack 2 & 3
 These projects perform the same function but are different in efficentcy, the main goal is to find the non hashed version of a password in the hash file using a large dictionary of words and hashing them to find matches. (Hashes are MD5)
 
-Crack3 uses structs, qsort, and bsearch
+Crack3 uses structs, qsort, and bsearch O(logn)
 
-Crack2 uses Bubble sort(n^2) and is far less efficent than crack3
+Crack2 uses Bubble sort O(n^2)
 
 Sample Output:
 ```
