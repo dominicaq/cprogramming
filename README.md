@@ -1,7 +1,7 @@
 # C Programming Fall 2018
 
 ## Crack 2 & 3
-These projects perform the same function but are different in efficentcy, the main goal is to find the non hashed version of a password in the hash file using a large dictionary of words and hashing them to find matches. (Hashes are in MD5)
+These projects perform the same function but are different in efficiency, the main goal is to find the non hashed version of a password in the hash file using a large dictionary of words and hashing them to find matches. (Hashes are in MD5)
 
 Crack3 uses structs, qsort, and bsearch O(logn)
 
@@ -17,7 +17,7 @@ Match 33: crandall1, c43896cb63f63f8f2124bad68ea965a5
 Passwords cracked: 100
 ```
 ## Mini Preprocessor
-This is not a complete preprocessor. This program will include any valid include paths given to it. If it can't be found or the include doesn't follow the required format the include line will be left alone.
+This is not a complete preprocessor. This program will include any valid include paths given to it. If the specified file can't be found or the include doesn't follow the required format the include line will be left alone.
 
 prep.c
 
