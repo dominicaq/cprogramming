@@ -1,11 +1,11 @@
 # C Programming Fall 2018
 
 ## Crack 2 & 3
-These projects perform the same function but are different in efficiency, the main goal is to find the non hashed version of a password in the hash file using a large dictionary of words and hashing them to find matches. (Hashes are in MD5)
+These projects perform the same function but are different in runtime. They will fill a dictonary with hashed password and then compare the non hashed passwords in the `rockyou` files to find matches. (Hashes are MD5)
 
-Crack3 uses structs, qsort, and bsearch O(logn)
+Crack2: $O(n^2)$ - Bubble sort
 
-Crack2 uses Bubble sort O(n^2)
+Crack3: $O(logn)$ - Qsort and Bsearch
 
 Sample Output:
 ```
@@ -19,7 +19,7 @@ Passwords cracked: 100
 ## Mini Preprocessor
 This is not a complete preprocessor. This program will include any valid include paths given to it. If the specified file can't be found or the include doesn't follow the required format the include line will be left alone.
 
-prep.c
+### prep.c
 
 Input:
 ```
@@ -55,7 +55,7 @@ Sincerely,
 The Aliens
 ```
 
-mpp2.c
+### mpp2.c
 
 Input:
 ```
